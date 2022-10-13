@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    color: white;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(15, 12, 41), rgb(13, 30, 54));
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    background-color: rgba(217, 217, 217, 0.29);
+    color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    border-radius: 3px;
+}
+
+label {
+    font-size: 16pt;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 0.7em;
+    font-size: 18pt;
+    width: 320px;
+    height: 58px;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    font-size: 18pt;
+    width: 200px;
+    height: 58px;
+    background-color: #00C2FF;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#hours {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5em;
+    font-size: 16pt;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(217, 217, 217, 0.29);
+    opacity: 1; /* Firefox */
+    font-size: 14pt;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(217, 217, 217, 0.29);
+    font-size: 14pt;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(217, 217, 217, 0.29);
+    font-size: 14pt;
+}
